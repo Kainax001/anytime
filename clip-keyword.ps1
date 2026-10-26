@@ -1,6 +1,6 @@
 ﻿# clip-keyword.ps1 — 클립보드에 키워드가 들어오면 GitHub에 올린 해당 글을 클립보드에 넣음
 param(
-    [string]$BaseUrl = 'https://raw.githubusercontent.com/OWNER/REPO/main/texts'
+    [string]$BaseUrl = 'https://raw.githubusercontent.com/Kainax001/anytime/main/texts'
 )
 
 # 키워드 → 글 파일 (보들레드는 오타로 들어와도 되도록 같이 둠)
